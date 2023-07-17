@@ -1,10 +1,12 @@
-import React from "react";
-import ContactForm from "./components/ContactForm/ContactForm";
-import ContactsList from "./components/ContactList/ContactList";
-import Filter from "./components/Filter/Filter";
-import styles from "./App.module.css";
+import React from 'react';
+import ContactForm from './ContactForm/ContactForm';
+import ContactsList from './ContactList/ContactList';
+import Filter from './Filter/Filter';
+import styles from './App.module.css';
 
 export const App = () => {
+
+ 
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Phonebook</h1>
@@ -15,3 +17,5 @@ export const App = () => {
     </div>
   );
 };
+
+
