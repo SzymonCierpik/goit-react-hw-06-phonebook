@@ -24,7 +24,7 @@ const ContactList = () => {
                   {name}: {number}
                 </p>
                 <button type="button" onClick={() => dispatch(deleteContact(id))}>
-                  Delete
+                  USUŃ
                 </button>
               </li>
             ))}
